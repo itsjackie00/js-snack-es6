@@ -116,13 +116,13 @@ Stampare in pagina oltre che in console!
 
 //Creo un array di oggetti di squadre di calcio
 const soccerTeam = [
-    {nome : 'Atalanta', puntiFatti: 10, falliSubiti: 0},
-    {nome : 'Bologna', puntiFatti: 7, falliSubiti: 3},
-    {nome : 'Cagliari', puntiFatti: 5, falliSubiti: 6},
-    {nome : 'Genova', puntiFatti: 12, falliSubiti: 3},
-    {nome : 'Inter', puntiFatti: 10, falliSubiti: 5},
-    {nome : 'Juventus', puntiFatti: 0, falliSubiti: 1},
-    {nome : 'Lazio', puntiFatti: 3, falliSubiti: 2},
-    {nome : 'Milan', puntiFatti: 22, falliSubiti: 4},
+    {nome : 'Atalanta', puntiFatti: 0, falliSubiti: 0},
+    {nome : 'Bologna', puntiFatti:0, falliSubiti:0},
+    {nome : 'Cagliari', puntiFatti:0, falliSubiti:0},
+    {nome : 'Genova', puntiFatti: 0, falliSubiti:0},
+    {nome : 'Inter', puntiFatti: 0, falliSubiti:0},
+    {nome : 'Juventus', puntiFatti:0, falliSubiti:0},
+    {nome : 'Lazio', puntiFatti:0, falliSubiti:0},
+    {nome : 'Milan', puntiFatti: 0, falliSubiti:0},
 ];
 console.log(soccerTeam);
