@@ -17,28 +17,28 @@ Generiamo e stampiamo in console la lista per i segnaposto.
 */
 
 //Creao un array per la lista degli invitati
-const guestName = [
-    'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  
-'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello'
-];
-console.log(guestName);
+// const guestName = [
+//     'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',
+//     'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello'
+// ];
+//console.log(guestName);
 
 //variabile per il segnalaposto
-const segnalaPosto = []
+// const segnalaPosto = []
 
 //creo un ciclo for dove pusho per ciascun invitato il nome del tavolo,
 //e il posto occupato.
-for (let i = 0; i < guestName.length; i++) {
-segnalaPosto.push({
-    tavolo : 'Tavolo VIP',
-    guest : guestName[i],
-    place : i + 1
-})
-}   
- console.log(segnalaPosto);
+// for (let i = 0; i < guestName.length; i++) {
+//     segnalaPosto.push({
+//         tavolo: 'Tavolo VIP',
+//         guest: guestName[i],
+//         place: i + 1
+//     })
+// }
+//console.log(segnalaPosto);
 
 
- /*
+/*
 SNACK 2
 Abbiamo un elenco degli studenti di una facoltà, identificati da id, Nome e somma totale dei loro voti di esame...
 1. Per preparare l'aula di un nuovo corso,
@@ -46,6 +46,18 @@ dobbiamo stampare le targhe col nome degli studenti: creare una lista contenente
 ES (Marco della Rovere => MARCO DELLA ROVERE);
 2. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70
 3. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120
-Buon pomeriggio e buon lavoro !!! :faccia_nerd:
+*/
 
- */
+
+//Creo un arrai per i studenti indicando id,nome e voto
+const student = [
+    {id: 110, studentName: 'Paola Cortellessa', voti: 96},
+    {id: 250, studentName: ' Andrea Mantegna', voti: 48},
+    {id: 145, studentName: 'Gaia Borromini', voti: 74},
+    {id: 196, studentName: ' Luigi Grimaldello', voti: 68},
+    {id: 102, studentName: ' Piero della Francesca', voti: 50},
+    {id: 120, studentName: ' Francesca da Polenta', voti: 84},
+    {id: 213, studentName: ' Marco della Rovere', voti: 78}
+];
+console.log(student);
+
