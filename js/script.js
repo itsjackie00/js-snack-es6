@@ -51,13 +51,16 @@ ES (Marco della Rovere => MARCO DELLA ROVERE);
 
 //Creo un arrai per i studenti indicando id,nome e voto
 const student = [
-    {id: 110, studentName: 'Paola Cortellessa', voti: 96},
-    {id: 250, studentName: ' Andrea Mantegna', voti: 48},
-    {id: 145, studentName: 'Gaia Borromini', voti: 74},
-    {id: 196, studentName: ' Luigi Grimaldello', voti: 68},
-    {id: 102, studentName: ' Piero della Francesca', voti: 50},
-    {id: 120, studentName: ' Francesca da Polenta', voti: 84},
-    {id: 213, studentName: ' Marco della Rovere', voti: 78}
+    {id: 110, nome: 'Paola Cortellessa', voti: 96},
+    {id: 250, nome: ' Andrea Mantegna', voti: 48},
+    {id: 145, nome: 'Gaia Borromini', voti: 74},
+    {id: 196, nome: ' Luigi Grimaldello', voti: 68},
+    {id: 102, nome: ' Piero della Francesca', voti: 50},
+    {id: 120, nome: ' Francesca da Polenta', voti: 84},
+    {id: 213, nome: ' Marco della Rovere', voti: 78}
 ];
 console.log(student);
 
+//student name to uppercase
+const uppercase = student.map((studente) => studente.nome.toUpperCase ());
+console.log(uppercase);
