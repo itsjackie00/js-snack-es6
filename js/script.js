@@ -115,7 +115,7 @@ Stampare in pagina oltre che in console!
 */
 
 //Creo un array di oggetti di squadre di calcio
-const soccerTeam = [
+let soccerTeam = [
     {nome : 'Atalanta', puntiFatti: 0, falliSubiti: 0},
     {nome : 'Bologna', puntiFatti:0, falliSubiti:0},
     {nome : 'Cagliari', puntiFatti:0, falliSubiti:0},
@@ -137,3 +137,26 @@ console.log(soccerTeam);
 //creao un nuovo array i cui elementi contengono solo nomi e falli subiti.
 const soccerTeamNames = soccerTeam.map((soccerTeam) => soccerTeam.nome + ' ' + soccerTeam.falliSubiti) ;
 console.log(soccerTeamNames);
+
+//Stampo i risultati in DOM
+const tabella = document.createElement("table");
+const tbody = document.createElement("tbody");
+
+let i = 0;
+for(let squadra of soccerTeamNames) {
+  const tr = document.createElement("tr");
+  const tdNome = document.createElement("td");
+  const tdFalliSubiti = document.createElement("td");
+
+  tdNome.textContent = soccerTeam[i].nome;
+  tdFalliSubiti.textContent = soccerTeam[i].falliSubiti;
+
+  tr.appendChild(tdNome);
+  tr.appendChild(tdFalliSubiti);
+
+  tbody.appendChild(tr);
+  i++;
+};
+
+tabella.appendChild(tbody);
+document.body.appendChild(tabella);
