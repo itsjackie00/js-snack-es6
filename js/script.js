@@ -134,4 +134,6 @@ for (let i = 0; i < soccerTeam.length; i++) {
 }
 console.log(soccerTeam);
 
-
+//creao un nuovo array i cui elementi contengono solo nomi e falli subiti.
+const soccerTeamNames = soccerTeam.map((soccerTeam) => soccerTeam.nome + ' ' + soccerTeam.falliSubiti) ;
+console.log(soccerTeamNames);
