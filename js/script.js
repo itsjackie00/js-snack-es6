@@ -83,3 +83,17 @@ Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e pe
 Stampare in console la bici con peso minore utilizzando destructuring e template literal.
 */
 
+//creao un array di oggetti che descriveranno le bici con nome e peso.
+const bici = [
+    {nome: 'Giant Propel', peso: 6.5},
+    {nome: 'Scott Addict RC Ultimate', peso: 7},
+    {nome: 'Specialized S-Works Aethos', peso: 6.36},
+    {nome: 'Wilier Zero SLR', peso: 6.8},
+    {nome: 'Orbea Orca M10iLTD PWR', peso: 6.64},
+    {nome: 'Look 795 Blade RS', peso: 7},
+    {nome: 'Giant Propel', peso: 6},
+    {nome: 'Scott Addict RC Ultimate', peso: 5},
+    {nome: 'Specialized S-Works Aethos', peso: 6.32},
+    {nome: 'Wilier Zero SLR', peso: 6.81},
+];
+//console.log(bici); 
