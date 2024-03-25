@@ -74,3 +74,12 @@ ES (Marco della Rovere => MARCO DELLA ROVERE);
 // // e id superiore a 120
 // const gradeAndId = student.filter ((studente) => studente.voti > 70 && studente.id > 120);
 // console.log(gradeAndId);
+
+
+/*
+SNACK 3
+Creare un array di oggetti:
+Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
+Stampare in console la bici con peso minore utilizzando destructuring e template literal.
+*/
+
