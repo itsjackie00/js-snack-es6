@@ -96,4 +96,8 @@ const bici = [
     {nome: 'Specialized S-Works Aethos', peso: 6.32},
     {nome: 'Wilier Zero SLR', peso: 6.81},
 ];
-//console.log(bici); 
+//console.log(bici);
+
+//stampo le bici con peso minore utilizzando destructuring e template literal.
+const biciMin = bici.filter((bici) => bici.peso <= 5);
+console.log(biciMin);
