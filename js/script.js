@@ -64,3 +64,8 @@ console.log(student);
 //student name to uppercase
 const uppercase = student.map((studente) => studente.nome.toUpperCase ());
 console.log(uppercase);
+
+
+//filtro i studenti con i voti superiori a 70
+const gradeOver70 = student.filter((studente) => studente.voti > 70);
+console.log(gradeOver70);
