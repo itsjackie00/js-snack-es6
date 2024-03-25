@@ -16,3 +16,7 @@ posto occupato (place),
 Generiamo e stampiamo in console la lista per i segnaposto.
 */
 
+const invites = [
+    'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  
+'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello'
+];
