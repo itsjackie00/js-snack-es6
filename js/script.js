@@ -125,4 +125,13 @@ const soccerTeam = [
     {nome : 'Lazio', puntiFatti:0, falliSubiti:0},
     {nome : 'Milan', puntiFatti: 0, falliSubiti:0},
 ];
+//console.log(soccerTeam);
+
+//genero numeri random al posto degli 0 nelle proprietà.
+for (let i = 0; i < soccerTeam.length; i++) {
+    soccerTeam[i].puntiFatti = getRndInteger(0,50);
+    soccerTeam[i].falliSubiti = getRndInteger(0,35);
+}
 console.log(soccerTeam);
+
+
