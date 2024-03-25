@@ -16,7 +16,23 @@ posto occupato (place),
 Generiamo e stampiamo in console la lista per i segnaposto.
 */
 
-const invites = [
+//Creao un array per la lista degli invitati
+const guestName = [
     'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  
 'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello'
 ];
+console.log(guestName);
+
+//variabile per il segnalaposto
+const segnalaPosto = []
+
+//creo un ciclo for dove pusho per ciascun invitato il nome del tavolo,
+//e il posto occupato.
+for (let i = 0; i < guestName.length; i++) {
+segnalaPosto.push({
+    tavolo : 'Tavolo VIP',
+    guest : guestName[i],
+    place : i + 1
+})
+}   
+ console.log(segnalaPosto);
