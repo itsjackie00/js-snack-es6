@@ -69,3 +69,8 @@ console.log(uppercase);
 //filtro i studenti con i voti superiori a 70
 const gradeOver70 = student.filter((studente) => studente.voti > 70);
 console.log(gradeOver70);
+
+//filtro i studenti con voti superiori a 70
+// e id superiore a 120
+const gradeAndId = student.filter ((studente) => studente.voti > 70 && studente.id > 120);
+console.log(gradeAndId);
